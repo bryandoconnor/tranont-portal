@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranont Portal | TranontLife</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/tranontmedia/tranontcss/assets/css/portal-styles.min.css">
+</head>
+
+<body>
+<!-- BEGIN NAVBARS -->	
+    <div id="Tranont-DualNavbars">
+        <nav class="navbar navbar-default navbar-fixed-top Main-navbar" id="Main-navbar">
+            <div class="container-fluid">
+                <div class="navbar-header"><button class="navbar-toggle collapsed hidden" data-toggle="collapse" data-target="#navcol-1"></button></div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav" id="Nav1">
+                        <li class="dropdown"><a class="dropdown-toggle Nav1-link" data-toggle="dropdown" aria-expanded="false" href="#">Menu&nbsp;<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="https://members.tranont.com/members/sso/2" target="_blank" class="Nav1-link">Associate Center</a></li>
+                                <li role="presentation"><a href="salestools.html" target="_blank" class="Nav1-link">Sales Tools</a></li>
+                                <li role="presentation"><a href="training.html" target="_blank" class="Nav1-link">Training</a></li>
+                                <li role="presentation"><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link">Wealth CORE</a></li>
+                                <li role="presentation"><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link">Health Products</a></li>
+                                <li role="presentation"><a href="tranontlife.html" target="_blank" class="Nav1-link">Tranont Life</a></li>
+                                <li role="presentation"><a href="https://member.tranont.com/dc/basepages/login.asp" target="_blank" class="Nav1-link">Manage Autoship</a></li>
+                                <li role="presentation"><a href="jeep4u.html" target="_blank" class="Nav1-link">Jeep 4 U Program</a></li>
+                                <li role="presentation"><a href="retailservices.html" target="_blank" class="Nav1-link">Retail Services</a></li>
+                                <li role="presentation"><a href="https://community.officedepot.com/GPOHome?id=3150466" target="_blank" class="Nav1-link">Office Depot</a></li>
+                                <li role="presentation"><a href="http://plugintoameeting.com" target="_blank" class="Nav1-link">Calendar</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right" id="Nav2">
+                        <li role="presentation"><a class="Nav1-heading"><strong>Hello, Dan</strong></a></li>
+                        <li role="presentation"><a href="https://members.tranont.com/login" class="Nav1-link"><strong>Logout</strong> </a></li>
+                        <li role="presentation"><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link"><strong>Shop</strong>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid Second-nav" id="Second-nav">
+            <div class="row No-padding">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><a href="http://www.tranont.com" target="_blank" style="display:inline-block"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Images/Portal+Links/Tranont+Main+Logo.svg" width="220px" class="Nav-image"></a></div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div>
+                        <h6 class="Green-stats" style="color:#29c60e;font-family:Montserrat, sans-serif;"><i class="fa fa-bar-chart"></i>&nbsp;CURRENT PV &nbsp;<span class="Stats-text">160</span></h6>
+                        <h6 style="color:#29c60e;font-family:Montserrat, sans-serif;"><i class="fa fa-pie-chart"></i>&nbsp;CURRENT GV &nbsp;<span class="Stats-text">240</span></h6>
+                        <h6 class="Green-stats" style="color:#29c60e;font-family:Montserrat, sans-serif;"><i class="fa fa-area-chart"></i>&nbsp;CURRENT CV &nbsp;<span class="Stats-text">100</span></h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <h6 style="color:#ff9406;font-family:Montserrat, sans-serif;"><i class="fa fa-star-half-empty"></i>&nbsp;PROJECTED PAY RANK &nbsp;<span class="Stats-text">Jade</span></h6>
+                    <div>
+                        <h6 style="color:#ff9406;font-family:Montserrat, sans-serif;"><i class="fa fa-calendar"></i>&nbsp;LAST ORDER &nbsp;<span class="Stats-text">5-20-18</span></h6>
+                        <h6 style="color:#ff1a1a;font-family:Montserrat, sans-serif;"><i class="fa fa-calendar"></i>&nbsp;NEXT BILL DATE &nbsp;<span class="Stats-text">6-20-18</span></h6>
+                        <h6 style="color:#ff1a1a;font-family:Montserrat, sans-serif;"><i class="fa fa-credit-card"></i>&nbsp;PAYMENT &nbsp;<span class="Stats-text">Due</span></h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div>
+                        <h6 class="Autoship-heading" style="color:#1d4cd6;font-family:Montserrat, sans-serif;"><i class="fa fa-truck"></i>&nbsp;AUTOSHIP &nbsp;<span class="Stats-text">Yes</span></h6>
+                        <h6 class="Autoship-heading" style="color:#1d4cd6;font-family:Montserrat, sans-serif;"><i class="fa fa-truck"></i>&nbsp;DESCRIPTION &nbsp;<span class="Stats-text">Vibe</span></h6>
+                    </div>
+                    <div class="Autoship-column">
+                        <h6 class="text-center" style="color:#9138f9;font-family:Montserrat, sans-serif;">QTY</h6>
+                        <h6 class="text-center hidden-md hidden-lg">&nbsp;&nbsp;</h6>
+                        <h6 class="text-center" style="font-family:Montserrat, sans-serif;"><span class="Stats-text">2</span></h6>
+                    </div>
+                    <div class="Autoship-column">
+                        <h6 class="text-center" style="color:#9138f9;font-family:Montserrat, sans-serif;">VOL</h6>
+                        <h6 class="text-center hidden-md hidden-lg">&nbsp;&nbsp;</h6>
+                        <h6 class="text-center" style="font-family:Montserrat, sans-serif;"><span class="Stats-text">3</span></h6>
+                    </div>
+                    <div class="Autoship-column">
+                        <h6 class="text-center" style="color:#9138f9;font-family:Montserrat, sans-serif;">PRICE</h6>
+                        <h6 class="text-center hidden-md hidden-lg">&nbsp;&nbsp;</h6>
+                        <h6 class="text-center" style="font-family:Montserrat, sans-serif;"><span class="Stats-text">$20.00</span></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="show hidden-sm hidden-md hidden-lg navbar-fixed-top" id="Mobile-navbar" style="background-color:rgba(250,250,250,.25);height:51px;box-shadow:1px 1px 5px #f6f6f6">
+            <div id="Mobile-div" class="Main-navbar">
+                <ul class="nav nav-tabs" id="Nav1" style="display:inline-block">
+                    <li class="dropdown"><a class="dropdown-toggle Nav1-link" data-toggle="dropdown" aria-expanded="false" href="#">Menu&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="https://members.tranont.com/members/sso/2" target="_blank" class="Nav1-link">Associate Center</a></li>
+                            <li role="presentation"><a href="https://members.tranont.com/members/sso/28" target="_blank" class="Nav1-link">Sales Tools</a></li>
+                            <li role="presentation"><a href="https://members.tranont.com/members/sso/7" target="_blank" class="Nav1-link">Training</a></li>
+                            <li role="presentation"><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link">Wealth CORE</a></li>
+                            <li role="presentation"><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link">Health Products</a></li>
+                            <li role="presentation"><a href="https://members.tranont.com/members/sso/6" target="_blank" class="Nav1-link">Tranont Life</a></li>
+                            <li role="presentation"><a href="https://member.tranont.com/dc/basepages/login.asp" target="_blank" class="Nav1-link">Manage Autoship</a></li>
+                            <li role="presentation"><a href="https://members.tranont.com/members/jeep4u" target="_blank" class="Nav1-link">Jeep 4 U Program</a></li>
+                            <li role="presentation"><a href="https://members.tranont.com/members/sso/8" target="_blank" class="Nav1-link">Retail Services</a></li>
+                            <li role="presentation"><a href="https://community.officedepot.com/GPOHome?id=3150466" target="_blank" class="Nav1-link">Office Depot</a></li>
+                            <li role="presentation"><a href="http://plugintoameeting.com" target="_blank" class="Nav1-link">Calendar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav nav-tabs" id="Nav2" style="float:right">
+                    <li><a href="https://members.tranont.com/login" target="_blank" class="Nav1-link"><strong>Login</strong> </a></li>
+                    <li><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link"><strong>Shop</strong>&nbsp;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- END NAVBARS -->	
+
+<!-- BEGIN BANNER & BUTTONS SECTION -->	
+    <div class="container-fluid No-margin" id="Main-Dash-container" style="padding:5px;">
+        <div class="row No-padding" id="Main-Dash-row" style="margin:20px 0px">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 Center" id="Main-Dash-Row-column1" style="padding:15px 5px"><a href="http://www.tranont.com/convention.html" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Images/Portal+Links/Welcome+Promo+Banner.jpg" width="100%"></a></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                id="Main-Dash-Row-column2" style="padding:15px 5px">
+                <div id="Portal-Icons-div1">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="Admin-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/2" target="_blank" id="AssociateCenter-link" class="Associate-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="Admin-Link-heading">Associate Center</h5>
+                            <div id="Admin-Link-Span-div" style="margin-left:60px"><span id="Admin-Link-span" class="Icon-value" style="font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="Admin-Link-div" class="Portal-link"><a href="https://member.tranont.com/dc/basepages/login.asp" target="_blank" id="MakePayment-link" class="Credit-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="Admin-Link-heading">Make Payment</h5>
+                            <div id="Admin-Link-Span-div" style="margin-left:60px"><span id="Admin-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="CNA-Link-div" class="Portal-link"><a href="https://tranontlifeu.mykajabi.com/p/tranontlifecnalead" target="_blank" id="SchedCNA-link" class="Life-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="CNA-Link-heading">Schedule CNA</h5>
+                            <div id="CNA-Link-Span-div" style="margin-left:60px"><span id="CNA-Link-span" class="Icon-value Black-bg" style="font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Portal-Icons-div2">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="CNA-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/26" target="_blank" id="TaxServices-link" class="TaxServices-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="CNA-Link-heading">Tax Services</h5>
+                            <div id="CNA-Link-Span-div" style="margin-left:60px"><span id="CNA-Link-span" class="Icon-value Black-bg" style="font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="Admin-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/26" target="_blank" id="CreditServices-link" class="CreditServices-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="Admin-Link-heading">Credit Services</h5>
+                            <div id="Admin-Link-Span-div" style="margin-left:60px"><span id="Admin-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="Defend-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/25" target="_blank" id="LegalServices-link" class="Portal-icon Legal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="Defend-Link-heading">Legal Services</h5>
+                            <div id="Defend-Link-Span-div" style="margin-left:60px"><span id="Defend-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Portal-Icons-div3">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="TaxBot-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/5" target="_blank" id="TaxBot-link" class="TaxBot-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="TaxBot-Link-heading">TaxBot</h5>
+                            <div id="TaxBot-Link-Span-div" style="margin-left:60px"><span id="TaxBot-Link-span" class="Icon-value Black-bg" style="font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="Defend-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/4" target="_blank" id="Defend-link" class="Defend-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="Defend-Link-heading">Defend</h5>
+                            <div id="Defend-Link-Span-div" style="margin-left:60px"><span id="Defend-Link-span" class="Icon-value Black-bg" style="color:fff;font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                        <div id="Defend-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/25" target="_blank" id="MobileHealthcare-link" class="Portal-icon MobileHealthcare-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="Defend-Link-heading">Mobile Healthcare</h5>
+                            <div id="Defend-Link-Span-div" style="margin-left:60px"><span id="Defend-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- END BANNER & BUTTONS SECTION -->	
+
+<!-- BEGIN FAMILIES HELPED SECTION -->	    
+    <div class="container-fluid No-padding" id="FamiliesHelped-container">
+        <div class="row No-margin" id="FamiliesHelped-row">
+            <div class="col-md-12 Center Gray-bg" id="FamiliesHelped-column" style="margin:10px auto">
+                <h3 class="LifeHelp-heading">Number of Families Helped by TranontLife</h3>
+                <h1 class="LifeHelp-number">5,261</h1>
+            </div>
+        </div>
+    </div>
+<!-- END FAMILIES HELPED SECTION -->
+
+<!-- BEGIN ACTIONS & NEWS SECTION -->
+    <div class="container-fluid No-margin" id="News-container">
+        <div class="row No-padding" id="News-row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="Documents-column">
+                <div id="Documents-div" class="Full-div">
+                    <div id="Documents-Heading-div" class="Full-div">
+                        <h5 id="Documents-heading" class="No-margin" style="font-family:Montserrat, sans-serif;color:#000;"><strong>WELCOME</strong></h5>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div id="WelcomeTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">QUICK LINKS</h6>
+                                <a href="https://www.tranontlifecna.com" target="_blank">
+                                    <p class="Download-paragraph"><i class="glyphicon glyphicon-globe Download-icon"></i>Schedule Your CNA</p>
+                                </a>
+                                <a href="https://dataview.ipipeline.com/?GAID=7235" target="_blank">
+                                    <p class="Download-paragraph"><i class="glyphicon glyphicon-globe Download-icon"></i>DataView</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Welcome/Quick+Links/Promotion.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Promotion.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Welcome/Quick+Links/Certification_Process.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Certification Process.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/TL_All_Tools.zip" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-zip-o Download-icon"></i>Download All TL Tools.zip</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Documents-Heading-div" class="Full-div">
+                        <h5 id="Documents-heading" class="No-margin" style="font-family:Montserrat, sans-serif;color:#000;"><strong>BECOME AN AGENT: 7 EASY STEPS</strong></h5>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="WelcomeTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">1. BECOME LICENSED</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Get_Licensed_(Exam_FX).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Get Licensed (Exam FX).pdf</p>
+                                </a>
+                                <a href="https://www.sircon.com/stateInformationCenter/index.jsp" target="_blank">
+                                    <p class="Download-paragraph"><i class="glyphicon glyphicon-globe Download-icon"></i>State License Info</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/State_Pre-licensing.xlsx" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-excel-o Download-icon"></i>State Pre-licensing.xlsx</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Puerto_Rico_Licensing.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Puerto Rico Licensing.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Canada_Pre-licensing.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Canada_IFSE.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada IFSE.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Canada_Insurance_Regulators.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Ins. Regulators.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Jurisdiction_Requirements.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Jurisdiction Requirements.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="CORETools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading"><a href="#"></a>2. GET APPOINTED</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Agent_Agreement_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Agent Agreement (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Agent_Agreement_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Agent Agreement (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Agent_Packet_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Agent Packet (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Agent_Packet_(Spanish)_pt1.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Agent Packet (Spanish pt1).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Agent_Packet_(Spanish)_pt2.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Agent Packet (Spanish pt2).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Fidelity_Paperwork.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Fidelity Paperwork.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/ANICO_Paperwork.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>ANICO Paperwork.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Override_Commission_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Override Commission (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Override_Commission_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Override Commission (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Annuity_Training_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annuity Training (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Annuity_Training_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annuity Training (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/E%26O_Guidelines_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>E&amp;O Guidelines (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/E%26O_Guidelines_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>E&amp;O Guidelines (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/TranontLife_Sample.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>TranontLife Sample.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/FGL_Appt_Sample.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>FGL Appt. Sample.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/ANICO_Appt_Sample.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>ANICO Appt. Sample.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Canada_Pre-licensing.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Canada_IFSE.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada IFSE.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Canada_Insurance_Regulators.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Ins. Regulators.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="RetailTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">3. CNA TRAINING</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/CNA.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CNA.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Canada_CNA_Sample.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CNA Sample.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/TranontLife_Overview.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>TL Overview.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/FG_Synergy_Gold.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>FG Synergy Gold.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Tranont_CORE_Overview.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Tranont CORE Overview.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Canada_CNA.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada CNA.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Canada_CNA_Sample.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada CNA Sample.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/CNA_Budget.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CNA Budget.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/CNA_Checklist.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CNA Checklist.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Friend_Referral.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Friend Referral.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Tranont_Pres_CNA_Launch.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Tranont Pres CNA Launch.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="BusinessTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">4. ILLUSTRATION TRAINING</h6>
+                                <p class="Download-paragraph2">(See Video Section)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="EventTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">5. SUBMITTING BUSINESS</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/FGL_Gold_with_Spouse%3AChild.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>FGL Gold w/ Spouse/Child.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/FGL_Gold_Proposed_Only.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>FGL Gold Proposed Only.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/FGL_Annuity_Performance.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>FGL Annuity Performance.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/ANICO_Term_Application.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>ANICO Term Application.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Fixed_Annuity_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Fixed Annuity (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Fixed_Annuity_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Fixed Annuity (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Split_Form.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Split Form.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Term_Life_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Term Life (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Term_Life_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Term Life (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/IUL_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>IUL (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/IUL_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>IUL (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Replacement_by_State.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Replacement by State.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/CA_IUL.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CA IUL.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/CA_Fixed_Annuity.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CA Fixed Annuity.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/CA_Term_Life.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CA Term Life.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Paramed_Sheet.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Paramed Sheet.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Paramed_Sheet.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Next Steps (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Next_Steps_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Next Steps (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Tranont_CORE_Overview.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Tranont CORE Overview.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Producer_Acknowledgement.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Producer Acknowledgement.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Canada_Annuity.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Annuity.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Canada_Term.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Term.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Canada_UL.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada UL.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/HH_Register_(Portamedic).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>HH Register (Portamedic).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/HH_Website_Order_Guide.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>HH Website Order Guide.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/HH_Web_Status_Check.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>HH Web Status Check.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="EventTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">6. OUTSTANDING DELIVERY REQ</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+6+Outstanding+Delivery+Requirements/Post_App_Checklist_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Post-App Checklist (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+6+Outstanding+Delivery+Requirements/Post_App_Checklist_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Post-App Checklist (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+6+Outstanding+Delivery+Requirements/Canada_Pre-licensing.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="EventTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">7. GET PAID/ANNUAL REVIEWS</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Compensation_Plan.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Compensation Plan.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/IUL_Review.docx" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-word-o Download-icon"></i>IUL Review.docx</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annuity_Review_(English).docx" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-word-o Download-icon"></i>Annuity Review (English).docx</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annuity_Review_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annuity Review (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annual Review (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annual Review (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_Script_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annual Review Script (Eng).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_Script_(Spanish).docx" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-word-o Download-icon"></i>Annual Review Script (Spa).docx</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Canada_Pre-licensing.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Documents-Heading-div" class="Full-div">
+                        <h5 id="Documents-heading" class="No-margin" style="font-family:Montserrat, sans-serif;color:#000;"><strong>PRODUCT TRAINING TOOLS</strong></h5>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="WelcomeTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">TERM (US)</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+(US)/State-Required_Annuity_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>State-Required Annuity (Eng).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+(US)/State-Required_Annuity_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>State-Required Annuity (Spa).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+(US)/RESP_Webinar.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>RESP Webinar.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+(US)/RESP_Training.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>RESP Training.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+(US)/RESP_Sample.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>RESP Sample.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+(US)/General_Options_Overview.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>General Options Overview.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="WelcomeTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">TERM &amp; CPP (CANADA)</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+%26+CPP+(Canada)/CPP_E-App.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CPP E-app.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+%26+CPP+(Canada)/CPP_Evolution_Summary.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CPP Evolution Summary.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+%26+CPP+(Canada)/CPP_Quick_Reference.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CPP Quick Reference.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Term+%26+CPP+(Canada)/CPP_Sample.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CPP Sample.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="CORETools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">UNIVERSAL LIFE</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Universal+Life/Equibuild_At_A_Glance.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Equibuild At-A-Glance.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Universal+Life/Equibuild_Product_Summary.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Equibuild Product Summary.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Universal+Life/Equibuild_10_Slides.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Equibuild 10 Slides.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/Universal+Life/UL_Investor_(13-654A).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>UL Investor (13-654A).pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="RetailTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">IA EVO</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/IA+EVO/Using_EVO.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Using EVO.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/IA+EVO/EVO_Feuillet_(13-951A).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>EVO Feuillet (13-951A).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/IA+EVO/Fact_Sheet.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Fact Sheet.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Product+Training+Tools/IA+EVO/Signature_Quick_Sheet.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Signature Quick Sheet.pdf</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="TrainingVideos-column">
+                <div id="TrainingVideos-div" class="Full-div">
+                    <div id="TrainingVideos-Heading-div" class="Full-div">
+                        <h5 id="NewsFeed-heading" style="font-family:Montserrat, sans-serif;color:#000;"><strong>TRAINING VIDEOS</strong><br></h5>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="BecomeAgentVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=Q-iWWWDTO2w&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">BECOMING AN AGENT VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="AgentPaperworkVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=CCwydPOvHjM&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">AGENT PAPERWORK VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="Non-ResidentVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=cK-qroioR0w&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 id="Legal-heading" class="TrainingVideo-paragraph">NON-RESIDENT LICENSES VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="CNATrainingVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=QOPeyx7Btug&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">CNA TRAINING (US) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="CNATrainingCanadaVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=DvMu0BeaBGU&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">CNA TRAINING (CANADA) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="HowToCNAVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=UK2jlMUqX5s&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">HOW TO DO A CNA VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="HowToFillCNAVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=QuiFBos6niA&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">HOW TO FILL OUT A CNA VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="ANICOTermVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=LCocrteJuC4&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">ANICO TERM ILLUSTRATION VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="GoldPlanPremVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=anshoR2mbqU&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">GOLD PLAN PREM TRAINING VIDEO<br></h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="GoldIncomeVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=x4W5S83PkHw&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">GOLD INCOME VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="GoldNonMedVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=pYpTRMuVfSA&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">GOLD NON-MED VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="SimpleVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=c7VFaU65nT0&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">SIMPLE FGL ILLUSTRATION VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="NonMedIllustrationVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=Ug8DyTKmyp8&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">NON-MED ILLUSTRATION VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="AppSubmissionVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=Q-iWWWDTO2w&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">APPLICATION SUBMISSION VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="OutstandingDeliveryReqVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=aZ81dVOVziY&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">OUTSTANDING DELIVERY REQUIREMENTS VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="DeliveringPolicyVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=v1HLK2vkqwo&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">DELIVERING A POLICY VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="CommissionCalculationVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=F3tfCIq78S8&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">COMMISSION CALCULATION VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="FGLifeGoldVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=h7XUnieHlHk&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">F&amp;G LIFE - IUL GOLD PRODUCT VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="FGNonMedVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=MHD3y6G7T_Y&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">F&amp;G NON-MEDICAL PRODUCTS VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="ANICOAnnuitiesVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=5rPCsOa3vcI&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">ANICO ANNUITIES VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="ANICOASIAVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=EhIojaJjqBs&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">ANICO - ASIA + ANNUITY VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="FGAnnuityPerformanceVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=R5S5mT_CK70&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">F&amp;G ANNUITY - PERFORMANCE PRO VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="FGProsperityVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=8L12O7ktHBc&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">F&amp;G PROSPERITY ELITE VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="ANICODiscussionVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=JAdtp8Kz4J0&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">ANICO DISCUSSION OF SECTION 72(t) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="FGLAnnuitiesVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=MLvRucoNZg0&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">FGL ANNUITIES - TRAINING &amp; ILLUSTRATION VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="ANICOJeffMooreVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=fKHB8_1s_EQ&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">ANICO - JEFF MOORE TRAINING VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="AgentPortalVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=fXv1NwefQF0&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">AGENT PORTAL (FGL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="BasicIllustrationVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=2czytuPOeUM&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">BASIC ILLUSTRATIONS (FGL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="AppropriatelyInsureVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=S1jbvjnlGmo&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">APPROPRIATELY INSURE YOUR CLIENTS VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="IllustrateIncomeStreamVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=Tv_F0DFATxA&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">ILLUSTRATE INCOME STREAM (FGL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="CaseStudyVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=RU41-ZbDu7c&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">CASE STUDY - 60 Y.O. FEMALE (IUL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="SolveForFunctionsVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=NeEzb-3FBv8&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">SOLVE FOR FUNCTIONS (FGL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="OvercomingObjectionsVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=kYvfyZ2i_EY&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">OVERCOMING OBJECTIONS (IUL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="ThingsToSubmitVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=lAug2DMbSwI&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">THINGS TO SUBMIT (APPLICATIONS) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="MacAccWDVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=SuMS07I6C2c&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">MAC ACC. &amp; WD (FGL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="AnnuitiesAndIllustrationsVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=MLvRucoNZg0&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">ANNUITIES &amp; ILLUSTRATIONS (FGL) VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="DifferencesInLifeVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=WFJ890I3QAc&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">DIFFERENCES IN LIFE INSURANCE VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="AgentPaperworkVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=CCwydPOvHjM&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">AGENT PAPERWORK VIDEO</h6></a></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="HowToCompleteAppVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=9_78hgVuOog&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">HOW TO COMPLETE AN APPLICATION VIDEO</h6></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr id="ContactUs-hr" style="height:1px;width:80%;background-color:#888b8d;">
+    <div id="ContactUs-block" style="margin:10px 0px;">
+        <div class="container" id="ContactUs-container">
+            <div class="row" id="ContactUs-row1">
+                <div class="col-md-12" id="ContactUs-Row1-column1">
+                    <h4 class="text-center" id="ContactUs">Contact Us</h4>
+                    <h5 class="text-center">CONTACT INFORMATION</h5>
+                </div>
+            </div>
+            <div class="row" id="ContactUs-row2">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs-Row2-column1" style="text-align:center">
+                    <h5 style="color:#05538a;">US OFFICE</h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs-Row2-column1" style="text-align:center">
+                    <h5 style="color:#05538a;">TranontLife</h5>
+                    <p style="margin:0px;"><a href="tel:8772191469" target="_blank"><strong>877.219.1469</strong></a> </p>
+                    <p style="margin:0px;"><a href="tel:8013847143" target="_blank"><strong>801.384.7143</strong></a><strong> (Fax)</strong></p>
+                    <p style="margin:10px 0px 0px 0px;"><strong>8871 S Sandy Parkway Ste 200</strong></p>
+                    <p style="margin:0px;"><strong>Sandy, UT 84070</strong></p>
+                    <hr style="width:50%;height:1px;background-color:#888b8d;">
+                    <p><a href="mailto:tranontlife@tranont.com" target="_blank"><strong>tranontlife@tranont.com</strong></a> - Questions</p>
+                    <p style="margin:0px;"><a href="mailto:newbusiness@tranont.com" target="_blank"><strong>newbusiness@tranont.com</strong></a> - New Applications &amp; Deliveries</p>
+                    <p style="margin:0px;"><a href="mailto:contracting@tranont.com" target="_blank"><strong>contracting@tranont.com</strong></a> - New Agent Paperwork</p>
+                    <hr style="width:50%;height:1px;background-color:#888b8d;">
+                    <p style="margin:10px 0px 0px 0px;"><strong>Michelle Eidem</strong></p>
+                    <p style="margin:0px;">Director of TranontLife</p>
+                    <p style="margin:0px;"><a href="mailto:michelle@tranont.com" target="_blank"><strong>michelle@tranont.com</strong></a> </p>
+                    <p style="margin:10px 0px 0px 0px;"><strong>Jared Berry</strong></p>
+                    <p style="margin:0px;">Commissions Controller</p>
+                    <p style="margin:0px;"><a href="mailto:jared@tranont.com" target="_blank"><strong>jared@tranont.com</strong></a> </p>
+                    <p style="margin:10px 0px 0px 0px;"><strong>Chelsea Anderson</strong></p>
+                    <p style="margin:0px;">Contracting Manager</p>
+                    <p style="margin:0px;"><a href="mailto:chelsea@tranont.com" target="_blank"><strong>chelsea@tranont.com</strong></a> </p>
+                    <p style="margin:10px 0px 0px 0px;"><strong>Lexie Shipp</strong></p>
+                    <p style="margin:0px;">New Business Manager</p>
+                    <p style="margin:0px;"><a href="mailto:rhianna@tranont.com" target="_blank"><strong>lexie@tranont.com</strong></a> </p>
+                    <p style="margin:10px 0px 0px 0px;"><strong>CNA Information</strong></p>
+                    <p style="margin:0px;"><a href="tel:8779848920" target="_blank"><strong>877.984.8920</strong></a> </p>
+                    <p style="margin:0px 0px 10px 0px;"><a href="mailto:wealthplan@tranont.com" target="_blank"><strong>wealthplan@tranont.com</strong></a> </p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs-Row2-column1" style="text-align:center">
+                    <h5 style="color:#05538a;">CANADA OFFICE</h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs-Row2-column1" style="text-align:center">
+                    <h5 style="color:#05538a;">TranontLife</h5>
+                    <p style="margin:0px;"><a href="tel:8772191469" target="_blank"><strong>289.846.8920</strong></a> </p>
+                    <p style="margin:10px 0px 0px 0px;"><strong>7300 Warden Avenue Ste 202A</strong></p>
+                    <p style="margin:0px;"><strong>Markham, Ontario L3R 9Z6</strong></p>
+                    <hr style="width:50%;height:1px;background-color:#888b8d;">
+                    <p style="margin:0px;"><a href="mailto:tranontlife@tranont.com" target="_blank"><strong>tranontlifeint@tranont.com</strong></a> - Questions</p>
+                    <hr style="width:50%;height:1px;background-color:#888b8d;">
+                    <p style="margin:10px 0px 0px 0px;"><strong>Ashley Pennell</strong></p>
+                    <p style="margin:0px 0px 20px 0px;"><a href="mailto:ashley@tranont.com" target="_blank"><strong>ashley@tranont.com</strong></a> </p>
+                </div>
+                <div class="col-md-12">
+                    <hr style="width:80%;height:1px;background-color:#888b8d;">
+                </div>
+                <div class="col-md-12" id="ContactUs-Row1-column1">
+                    <h4 class="text-center" id="FAQ">FAQ </h4>
+                    <h5 class="text-center" style="padding:0px 30px;"><strong>Q. Can I be a TranontLife agent and still write business with another company?</strong> </h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. No. The agent agreement states that all agents are “Captive” to TranontLife and to the products we are licensed to sell. Agents writing Life or Annuity business outside of TranontLife are subject to termination from TranontLife.
+                        For those with other Lines of Authority, please send in a letter of explanation. Exceptions are granted on a case by case basis.<strong> </strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. I just got my license. Now what do I do? </strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. The next step is to fill out the New Agent Packet found in the Agent Paperwork section of the TranontLife library. This section has all the paperwork needed to become appointed.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. What information do I provide you to become a TranontLife Agent?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. Everything we need is in the TranontLife New agent Packet located in the Agent Paperwork section. We also provide you with a checklist and video there as well, to help you get started.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Do I need to be licensed as a split agent?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. Yes. The split agent must be licensed and appointed by the issue date on the commission statement. We cannot hold the commission until you are properly licensed. If you are not properly licensed, that commission will roll up to
+                        the next person above you who is properly licensed and appointed.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. What if I forgot one signature and the client gives me permission to sign for him/her?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. Signing on behalf of a customer is considered fraud, and you could lose your license, be fined, or even face prosecution. Never sign for a client, even if he or she has given you permission.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. How should I handle non-public information?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. TranontLife’s policy is that all non-public information should be handled in accordance with privacy laws. Information should be kept safe and shredded when not needed. This does include permanently deleting desktop information
+                        to guard against a hacker accessing your digital files.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Do I need E&amp;O Insurance?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. Yes it is required that every agent have E&amp;O insurance to be appointed and write business. WE offer E&amp;O to TranontLife agents at a discounted rate. The coverage runs from January of the current year to January of the following
+                        year.&nbsp;You can find a form to sign up for our E&amp;O in the New Agent Packet. If you choose to get your own E&amp;O, please send us the binder.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. What additional training do I need to write annuities?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. You must complete the product specific training online for each annuity product BEFORE you write the annuity. You only need to complete this training once.&nbsp;You also need to check if the state you are writing in has STATE REQUIRED
+                        training. A list is provided in the Agent Paperwork section.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Where do I turn in applications?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. All applications and delivery receipts need to be emailed to&nbsp;<a href="mailto:tranontlifeint@tranont.com">newbusiness@tranont.com</a>. We will scrub them for missing information. If there is something missing, we will attempt
+                        to contact the producer to fix the issue.&nbsp;You can also fax applications to TranontLife at 801-384-7143. If you are writing an E-App, please make sure you still send us a copy of the application.</h5>
+                    <h5 class="text-center"
+                        style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. When do commissions pay out?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. Commissions are paid every Friday.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Where do I find training on the products we sell?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. In the section titled <a href="#OngoingAgentTraining">Ongoing Training</a> you will find past trainings. Trainings are sent directly to your email twice a week.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. What licenses do I need for an override commission?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. Producers must have a license and appointment in the “Hot” states to get an override commission. “Cold” states only require that you are appointed with the insurance carrier to get an override. A list of “Hot” and “Cold” states
+                        can be found in the Agent Paperwork section.&nbsp;When calculating commissions, we follow your sponsorship not your placement line.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Do I have to have a license and appointment in every state to get split commissions?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. Yes. You must have a license and be appointed in every state you are the writing or referring agent in.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Does my state require pre-licensing education to get licensed?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. This is handled state by state. Each state has different rules for licensing. You can find a list of states that require pre-licensing by logging into Tranont.com and selecting the TranontLife library. The Becoming licensed section
+                        has the state requirements. We also have a flyer for ExamFX in that section.&nbsp;Using ExamFX will give you a discount on the education.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. How long does it take to become appointed?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. When we have received all the required documents from the agent, we start the appointing process within 48 hours. Every appointment and company has different timelines for how long it takes. Fidelity and Guaranty can typically have
+                        you appointed within 72 hours after everything is sent in. ANICO takes between 10-12 days. If the agent has had bankruptcy in his or her past or has other issues in his or her background, this can increase the wait time or the
+                        appointment can be cancelled altogether.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. How do I find out if I have been appointed?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. The Product Provider will either send you a letter in the mail or an email. In the letter, you’ll find your agent ID and a password to the provider’s web site. If an agent thinks he or she should have already been appointed, he
+                        or she can call the Product Provider and ask.</h5>
+                    <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. When can you start to explain products to your friends and family?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. While we encourage you to do training with a licensed producer to increase your knowledge, state law prohibits you from talking about products during this training period until you are fully licensed and appointed.</h5>
+                    <h5 class="text-center"
+                        style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. What title can you use as a producer?</strong></h5>
+                    <h5 class="text-center" style="padding:0px 30px;">A. You should always let the client know what you are licensed to sell life insurance up front. Agents should avoid titles like Financial Advisor, Investment Consultant, 401(k) Rollover Specialist, Financial Planning Specialist, or
+                        anything that could lead the client to assuming you are securities licensed (unless you are securities licensed or have earned the designation). You cannot hold yourself out as an expert in areas you are not licensed in.</h5>
+                    <h5
+                        class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Can I write an application on myself?</strong></h5>
+                        <h5 class="text-center" style="padding:0px 30px;">A. TranontLife’s company policy does not allow for the producer to be the agent on their own policy as the writing agent or as the split agent. This is considered rebating of premiums.</h5>
+                        <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Can I give advice on a client’s current investments?</strong></h5>
+                        <h5 class="text-center" style="padding:0px 30px;">A. As a producer, you may only give advice on products you are licensed to sell. If you are not securities licensed, you cannot perform an analysis or recommend any change in a securities product.</h5>
+                        <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Can I refer securities business to someone that is Securities licensed and still make money?</strong></h5>
+                        <h5 class="text-center" style="padding:0px 30px;">A. Making any money directly or indirectly from a securities product is not covered by your current license. If you are not securities licensed, it is also illegal.</h5>
+                        <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. How do I complete my Continuing Education?</strong></h5>
+                        <h5 class="text-center" style="padding:0px 30px;">A. Every state has different rules and education requirements. Please refer to your state specific website for approved providers.</h5>
+                        <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. When writing new business, besides the Product Provider’s application, what else do I need to turn in to TranontLife?</strong></h5>
+                        <h5 class="text-center" style="padding:0px 30px;">A. Every application needs a split form and a disclosure turned in with the application. Commissions cannot be paid without them. You can find both in the Forms and Submissions section. Please note that California does has different
+                            disclosures.</h5>
+                        <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. Whom does the client write a check to?</strong></h5>
+                        <h5 class="text-center" style="padding:0px 30px;">A. The client should never write a check out to you, the producer. It should always be made out to the Product Provider.</h5>
+                        <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. What does becoming a TranontLife Agent do for me?</strong></h5>
+                        <h5 class="text-center" style="padding:0px 30px;">A. As an agent, you can help make a difference in your friends’ and families’ lives by educating them about finances. While expanding your own financial knowledge, your earned commissions will increase your own financial stability.</h5>
+                        <h5
+                            class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. How do I participate in the 30% acquisition bonus?</strong></h5>
+                            <h5 class="text-center" style="padding:0px 30px;">A. To participate you must achieve the Vice President rank on the TranontLife side. You become a Vice President by hitting the qualifications listed on the&nbsp;<a href="https://s3-us-west-2.amazonaws.com/cont.training/Docs/TranontCompensationPlan_Web.pdf"
+                                    target="_blank">Compensation Plan</a> found on Tranont’s website.</h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. How do I contact FGL?</strong></h5>
+                            <h5 class="text-center" style="padding:0px 30px;">A. FGL Agent Services:</h5>
+                            <h5 class="text-center" style="padding:0px 30px;"><a href="tel:18004456758" target="_blank"><strong>1.800.445.6758</strong></a> </h5>
+                            <h5 class="text-center" style="padding:0px 30px;"><a href="https://www.fglife.com/" target="_blank"><strong>www.fglife.com</strong></a></h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:10px 0px 0px 0px;">FGL Service Center </h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:0px;">777 Research Drive</h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:0px 0px 10px 0px;">Lincoln, NE 68521 </h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:20px 0px 10px 0px;"><strong>Q. How do I contact ANICO?</strong></h5>
+                            <h5 class="text-center" style="padding:0px 30px;">A. ANICO Field Support:</h5>
+                            <h5 class="text-center" style="padding:0px 30px;"><a href="tel:8885014043" target="_blank"><strong>888.501.4043</strong></a> </h5>
+                            <h5 class="text-center" style="padding:0px 30px;"><a href="https://img.anicoweb.com/" target="_blank"><strong>https://img.anicoweb.com</strong></a> </h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:10px 0px 0px 0px;">ANICO </h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:0px;">1949 E. Sunshine St.</h5>
+                            <h5 class="text-center" style="padding:0px 30px;margin:0px 0px 10px 0px;">Springfield, MO 65899</h5>
+                </div>
+                <div class="col-md-12" style="text-align:center">
+                    <a href="https://s3-us-west-2.amazonaws.com/cont.tranontlife.com/Pdfs/201703_New_Agent_Packet.pdf" target="_blank">
+                        <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>New Agent Information Packet (Spanish).pdf</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END ACTIONS & NEWS SECTION -->
+
+<!-- BEGIN JAVASCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- END JAVASCRIPTS -->
+
+</body>
+
+</html>
