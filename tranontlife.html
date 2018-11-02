@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tranont Portal | TranontLife</title>
+    <title>Tranont Portal | Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
 
 <body>
 <!-- BEGIN NAVBARS -->	
-    <div id="Tranont-DualNavbars">
+    <div id="Tranont-Portal-navbar">
         <nav class="navbar navbar-default navbar-fixed-top Main-navbar" id="Main-navbar">
             <div class="container-fluid">
                 <div class="navbar-header"><button class="navbar-toggle collapsed hidden" data-toggle="collapse" data-target="#navcol-1"></button></div>
@@ -25,15 +25,16 @@
                     <ul class="nav navbar-nav" id="Nav1">
                         <li class="dropdown"><a class="dropdown-toggle Nav1-link" data-toggle="dropdown" aria-expanded="false" href="#">Menu&nbsp;<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="index.html" class="Nav1-link">Home</a></li>
                                 <li role="presentation"><a href="https://members.tranont.com/members/sso/2" target="_blank" class="Nav1-link">Associate Center</a></li>
-                                <li role="presentation"><a href="salestools.html" target="_blank" class="Nav1-link">Sales Tools</a></li>
-                                <li role="presentation"><a href="training.html" target="_blank" class="Nav1-link">Training</a></li>
+                                <li role="presentation"><a href="salestools.html" class="Nav1-link">Sales Tools</a></li>
+                                <li role="presentation"><a href="training.html" class="Nav1-link">Training</a></li>
                                 <li role="presentation"><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link">Wealth CORE</a></li>
                                 <li role="presentation"><a href="https://member.tranont.com/shop/home.asp" target="_blank" class="Nav1-link">Health Products</a></li>
-                                <li role="presentation"><a href="tranontlife.html" target="_blank" class="Nav1-link">Tranont Life</a></li>
+                                <li role="presentation"><a href="tranontlife.html" class="Nav1-link">Tranont Life</a></li>
                                 <li role="presentation"><a href="https://member.tranont.com/dc/basepages/login.asp" target="_blank" class="Nav1-link">Manage Autoship</a></li>
-                                <li role="presentation"><a href="jeep4u.html" target="_blank" class="Nav1-link">Jeep 4 U Program</a></li>
-                                <li role="presentation"><a href="retailservices.html" target="_blank" class="Nav1-link">Retail Services</a></li>
+                                <li role="presentation"><a href="jeep4u.html" class="Nav1-link">Jeep 4 U Program</a></li>
+                                <li role="presentation"><a href="retailservices.html" class="Nav1-link">Retail Services</a></li>
                                 <li role="presentation"><a href="https://community.officedepot.com/GPOHome?id=3150466" target="_blank" class="Nav1-link">Office Depot</a></li>
                                 <li role="presentation"><a href="http://plugintoameeting.com" target="_blank" class="Nav1-link">Calendar</a></li>
                             </ul>
@@ -47,43 +48,45 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid Second-nav" id="Second-nav">
-            <div class="row No-padding">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><a href="http://www.tranont.com" target="_blank" style="display:inline-block"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Images/Portal+Links/Tranont+Main+Logo.svg" width="220px" class="Nav-image"></a></div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div>
-                        <h6 class="Green-stats" style="color:#29c60e;font-family:Montserrat, sans-serif;"><i class="fa fa-bar-chart"></i>&nbsp;CURRENT PV &nbsp;<span class="Stats-text">160</span></h6>
-                        <h6 style="color:#29c60e;font-family:Montserrat, sans-serif;"><i class="fa fa-pie-chart"></i>&nbsp;CURRENT GV &nbsp;<span class="Stats-text">240</span></h6>
-                        <h6 class="Green-stats" style="color:#29c60e;font-family:Montserrat, sans-serif;"><i class="fa fa-area-chart"></i>&nbsp;CURRENT CV &nbsp;<span class="Stats-text">100</span></h6>
+        <div class="container-fluid API-nav" id="API-nav">
+            <div class="row No-padding" id="API-row1">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" id="Logo-column"><a href="http://www.tranont.com" target="_blank" style="display:inline-block"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Images/Portal+Links/Tranont+Main+Logo.svg" class="Nav-image"></a></div>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"
+                    id="Volume-column">
+                    <div id="Volume-div">
+                        <h6 id="CurrentPV-heading" class="Purple-stats Stats-text"><i class="fa fa-bar-chart" id="CurrentPV-icon"></i>&nbsp;PREVIOUS PV &nbsp;<span id="CurrentPV-stats" class="Gray-stats">200.00</span></h6>
+                        <h6 id="CurrentGV-heading" class="Purple-stats Stats-text"><i class="fa fa-pie-chart" id="CurrentGV-icon"></i>&nbsp;PREVIOUS GV &nbsp;<span id="CurrentGV-stats" class="Gray-stats">200.00</span></h6>
+                        <h6 id="CurrentCV-heading" class="Purple-stats Stats-text"><i class="fa fa-area-chart" id="CurrentCV-icon"></i>&nbsp;PREVIOUS CV &nbsp;<span id="CurrentCV-stats" class="Gray-stats">0.00</span></h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <h6 style="color:#ff9406;font-family:Montserrat, sans-serif;"><i class="fa fa-star-half-empty"></i>&nbsp;PROJECTED PAY RANK &nbsp;<span class="Stats-text">Jade</span></h6>
-                    <div>
-                        <h6 style="color:#ff9406;font-family:Montserrat, sans-serif;"><i class="fa fa-calendar"></i>&nbsp;LAST ORDER &nbsp;<span class="Stats-text">5-20-18</span></h6>
-                        <h6 style="color:#ff1a1a;font-family:Montserrat, sans-serif;"><i class="fa fa-calendar"></i>&nbsp;NEXT BILL DATE &nbsp;<span class="Stats-text">6-20-18</span></h6>
-                        <h6 style="color:#ff1a1a;font-family:Montserrat, sans-serif;"><i class="fa fa-credit-card"></i>&nbsp;PAYMENT &nbsp;<span class="Stats-text">Due</span></h6>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" id="Volume-column">
+                    <div id="Volume-div">
+                        <h6 id="CurrentPV-heading" class="Green-stats Stats-text"><i class="fa fa-bar-chart" id="CurrentPV-icon"></i>&nbsp;CURRENT PV &nbsp;<span id="CurrentPV-stats" class="Gray-stats">200.00</span></h6>
+                        <h6 id="CurrentGV-heading" class="Green-stats Stats-text"><i class="fa fa-pie-chart" id="CurrentGV-icon"></i>&nbsp;CURRENT GV &nbsp;<span id="CurrentGV-stats" class="Gray-stats">200.00</span></h6>
+                        <h6 id="CurrentCV-heading" class="Green-stats Stats-text"><i class="fa fa-area-chart" id="CurrentCV-icon"></i>&nbsp;CURRENT CV &nbsp;<span id="CurrentCV-stats" class="Gray-stats">0.00</span></h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div>
-                        <h6 class="Autoship-heading" style="color:#1d4cd6;font-family:Montserrat, sans-serif;"><i class="fa fa-truck"></i>&nbsp;AUTOSHIP &nbsp;<span class="Stats-text">Yes</span></h6>
-                        <h6 class="Autoship-heading" style="color:#1d4cd6;font-family:Montserrat, sans-serif;"><i class="fa fa-truck"></i>&nbsp;DESCRIPTION &nbsp;<span class="Stats-text">Vibe</span></h6>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="Rank-column">
+                    <div id="Rank-div">
+                        <h6 id="ProjectedRank-heading" class="Orange-stats Stats-text"><i class="fa fa-trophy" id="ProjectedRank-icon"></i>&nbsp;HIGHEST ACHIEVED RANK &nbsp;<span id="ProjectedRank-stats" class="Gray-stats">Customer</span></h6>
+                        <h6 id="ProjectedRank-heading" class="Orange-stats Stats-text"><i class="fa fa-star-half-empty" id="ProjectedRank-icon"></i>&nbsp;PROJECTED PAY RANK &nbsp;<span id="ProjectedRank-stats" class="Gray-stats">Customer</span></h6>
                     </div>
-                    <div class="Autoship-column">
-                        <h6 class="text-center" style="color:#9138f9;font-family:Montserrat, sans-serif;">QTY</h6>
-                        <h6 class="text-center hidden-md hidden-lg">&nbsp;&nbsp;</h6>
-                        <h6 class="text-center" style="font-family:Montserrat, sans-serif;"><span class="Stats-text">2</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="Payment-column">
+                    <div id="Payment-div">
+                        <h6 id="NextBill-heading" class="Red-stats Stats-text"><i class="fa fa-calendar" id="NextBill-icon"></i>&nbsp;NEXT BILL DATE &nbsp;<span id="NextBill-stats" class="Gray-stats">08/01/2018</span></h6>
+                        <h6 id="LastOrder-heading" class="Red-stats Stats-text"><i class="fa fa-shopping-cart" id="LastOrder-icon"></i>&nbsp;LAST ORDER &nbsp;<span id="LastOrder-stats" class="Gray-stats">07/01/2018</span></h6>
+                        <h6 id="Autoship-heading" class="Red-stats Stats-text"><i class="fa fa-truck" id="Autoship-icon"></i>&nbsp;AUTOSHIP &nbsp;<span id="Autoship-stats" class="Gray-stats">Yes</span></h6>
                     </div>
-                    <div class="Autoship-column">
-                        <h6 class="text-center" style="color:#9138f9;font-family:Montserrat, sans-serif;">VOL</h6>
-                        <h6 class="text-center hidden-md hidden-lg">&nbsp;&nbsp;</h6>
-                        <h6 class="text-center" style="font-family:Montserrat, sans-serif;"><span class="Stats-text">3</span></h6>
-                    </div>
-                    <div class="Autoship-column">
-                        <h6 class="text-center" style="color:#9138f9;font-family:Montserrat, sans-serif;">PRICE</h6>
-                        <h6 class="text-center hidden-md hidden-lg">&nbsp;&nbsp;</h6>
-                        <h6 class="text-center" style="font-family:Montserrat, sans-serif;"><span class="Stats-text">$20.00</span></h6>
+                </div>
+            </div>
+            <div class="row No-padding Autoship-row" id="API-row2">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Autoship-column" id="ASDes-column">
+                    <div id="ASDes-Column1-div">
+                        <h6 id="ASDes-Column1-Des-heading" class="Autoship-heading Blue-stats Stats-text"><i class="fa fa-truck" id="ASDes-Column1-Des-icon"></i>&nbsp;AS DES &nbsp;<span id="ASDes-Column1-Des-stats" class="Gray-stats">1 Star FC CORE Health</span></h6>
+                        <h6 id="ASDes-Column2-Vol-heading" class="Autoship-heading Blue-stats Stats-text"><i class="fa fa-signal" id="ASDes-Column2-Vol-icon"></i>&nbsp;VOL &nbsp;<span id="ASDes-Column2-Vol-stats" class="Gray-stats">3</span></h6>
+                        <h6 id="ASDes-Column2-Qty-heading" class="Autoship-heading Blue-stats Stats-text"><i class="fa fa-shopping-bag" id="ASDes-Column2-Qty-icon"></i>&nbsp;QTY &nbsp;<span id="ASDes-Column2-Qty-stats" class="Gray-stats">2</span></h6>
+                        <h6 id="ASDes-Column2-Price-heading" class="Autoship-heading Blue-stats Stats-text"><i class="glyphicon glyphicon-credit-card" id="ASDes-Column2-Price-icon"></i>&nbsp;PRICE &nbsp;<span id="ASDes-Column2-Price-stats" class="Gray-stats">$59.95</span></h6>
                     </div>
                 </div>
             </div>
@@ -117,68 +120,82 @@
 <!-- END NAVBARS -->	
 
 <!-- BEGIN BANNER & BUTTONS SECTION -->	
-    <div class="container-fluid No-margin" id="Main-Dash-container" style="padding:5px;">
+    <div class="container-fluid No-margin No-padding" id="Main-Dash-container">
         <div class="row No-padding" id="Main-Dash-row" style="margin:20px 0px">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 Center" id="Main-Dash-Row-column1" style="padding:15px 5px"><a href="http://www.tranont.com/convention.html" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Images/Portal+Links/Welcome+Promo+Banner.jpg" width="100%"></a></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 Center" id="Main-Dash-Row-column1" style="padding:5px 0px"><a href="http://www.tranont.com/convention.html" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Images/Portal+Links/Welcome+Promo+Banner.jpg" width="100%"></a></div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
-                id="Main-Dash-Row-column2" style="padding:15px 5px">
-                <div id="Portal-Icons-div1">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
-                        <div id="Admin-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/2" target="_blank" id="AssociateCenter-link" class="Associate-icon Portal-icon"></a>
-                            <h5 class="text-center AdminLink-text" id="Admin-Link-heading">Associate Center</h5>
-                            <div id="Admin-Link-Span-div" style="margin-left:60px"><span id="Admin-Link-span" class="Icon-value" style="font-family:Montserrat, sans-serif;">0</span></div>
+                id="Main-Dash-Row-column2" style="padding:5px">
+                <div id="Portal-Icons-div">
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="AssociateCenter-column">
+                        <div id="AssociateCenter-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/2" target="_blank" id="AssociateCenter-link" class="Portal-icon Associate-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="AssociateCenter-Link-heading">Associate Center</h5>
+                            <div id="AssociateCenter-Link-Span-div" class="Span-div"><span id="AssociateCenter-Link-span" class="Icon-value">0</span></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
-                        <div id="Admin-Link-div" class="Portal-link"><a href="https://member.tranont.com/dc/basepages/login.asp" target="_blank" id="MakePayment-link" class="Credit-icon Portal-icon"></a>
-                            <h5 class="text-center AdminLink-text" id="Admin-Link-heading">Make Payment</h5>
-                            <div id="Admin-Link-Span-div" style="margin-left:60px"><span id="Admin-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="SalesTools-column">
+                        <div id="SalesTools-Link-div" class="Portal-link"><a href="salestools.html" id="SalesTools-link" class="Portal-icon SalesTools-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="SalesTools-Link-heading">Sales Tools</h5>
+                            <div id="SalesTools-Link-Span-div" class="Span-div"><span id="SalesTools-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
-                        <div id="CNA-Link-div" class="Portal-link"><a href="https://tranontlifeu.mykajabi.com/p/tranontlifecnalead" target="_blank" id="SchedCNA-link" class="Life-icon Portal-icon"></a>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="CNA-column">
+                        <div id="CNA-Link-div" class="Portal-link"><a href="https://tranontlifeu.mykajabi.com/p/tranontlifecnalead" target="_blank" id="CNA-link" class="Portal-icon CNA-icon"></a>
                             <h5 class="text-center AdminLink-text" id="CNA-Link-heading">Schedule CNA</h5>
-                            <div id="CNA-Link-Span-div" style="margin-left:60px"><span id="CNA-Link-span" class="Icon-value Black-bg" style="font-family:Montserrat, sans-serif;">0</span></div>
+                            <div id="CNA-Link-Span-div" class="Span-div"><span id="CNA-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
-                </div>
-                <div id="Portal-Icons-div2">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
-                        <div id="CNA-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/26" target="_blank" id="TaxServices-link" class="TaxServices-icon Portal-icon"></a>
-                            <h5 class="text-center AdminLink-text" id="CNA-Link-heading">Tax Services</h5>
-                            <div id="CNA-Link-Span-div" style="margin-left:60px"><span id="CNA-Link-span" class="Icon-value Black-bg" style="font-family:Montserrat, sans-serif;">0</span></div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="TaxServices-column">
+                        <div id="TaxServices-Link-div" class="Portal-link"><a href="tax.html" id="TaxServices-link" class="TaxServices-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="TaxServices-Link-heading">Tax Services</h5>
+                            <div id="TaxServices-Link-Span-div" class="Span-div"><span id="TaxServices-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
-                        <div id="Admin-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/26" target="_blank" id="CreditServices-link" class="CreditServices-icon Portal-icon"></a>
-                            <h5 class="text-center AdminLink-text" id="Admin-Link-heading">Credit Services</h5>
-                            <div id="Admin-Link-Span-div" style="margin-left:60px"><span id="Admin-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="CreditServices-column">
+                        <div id="CreditServices-Link-div" class="Portal-link"><a href="credit.html" id="CreditServices-link" class="CreditServices-icon Portal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="CreditServices-Link-heading">Credit Services</h5>
+                            <div id="CreditServices-Link-Span-div" class="Span-div"><span id="CreditServices-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
-                        <div id="Defend-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/25" target="_blank" id="LegalServices-link" class="Portal-icon Legal-icon"></a>
-                            <h5 class="text-center AdminLink-text" id="Defend-Link-heading">Legal Services</h5>
-                            <div id="Defend-Link-Span-div" style="margin-left:60px"><span id="Defend-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="LegalServices-column">
+                        <div id="LegalServices-Link-div" class="Portal-link"><a href="legal.html" id="LegalServices-link" class="Portal-icon Legal-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="LegalServices-Link-heading">Legal Services</h5>
+                            <div id="LegalServices-Link-Span-div" class="Span-div"><span id="LegalServices-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
-                </div>
-                <div id="Portal-Icons-div3">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="TaxBot-column">
                         <div id="TaxBot-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/5" target="_blank" id="TaxBot-link" class="TaxBot-icon Portal-icon"></a>
                             <h5 class="text-center AdminLink-text" id="TaxBot-Link-heading">TaxBot</h5>
-                            <div id="TaxBot-Link-Span-div" style="margin-left:60px"><span id="TaxBot-Link-span" class="Icon-value Black-bg" style="font-family:Montserrat, sans-serif;">0</span></div>
+                            <div id="TaxBot-Link-Span-div" class="Span-div"><span id="TaxBot-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="Defend-column">
                         <div id="Defend-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/4" target="_blank" id="Defend-link" class="Defend-icon Portal-icon"></a>
                             <h5 class="text-center AdminLink-text" id="Defend-Link-heading">Defend</h5>
-                            <div id="Defend-Link-Span-div" style="margin-left:60px"><span id="Defend-Link-span" class="Icon-value Black-bg" style="color:fff;font-family:Montserrat, sans-serif;">0</span></div>
+                            <div id="Defend-Link-Span-div" class="Span-div"><span id="Defend-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 Link-column">
-                        <div id="Defend-Link-div" class="Portal-link"><a href="https://members.tranont.com/members/sso/25" target="_blank" id="MobileHealthcare-link" class="Portal-icon MobileHealthcare-icon"></a>
-                            <h5 class="text-center AdminLink-text" id="Defend-Link-heading">Mobile Healthcare</h5>
-                            <div id="Defend-Link-Span-div" style="margin-left:60px"><span id="Defend-Link-span" class="Icon-value Black-bg" style="color:#fff;font-family:Montserrat, sans-serif;">0</span></div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="MobileHealthcare-column">
+                        <div id="MobileHealthcare-Link-div" class="Portal-link"><a href="https://acutecaretriage.com/" target="_blank" id="MobileHealthcare-link" class="Portal-icon MobileHealthcare-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="MobileHealthcare-Link-heading">Mobile Healthcare</h5>
+                            <div id="MobileHealthcare-Link-Span-div" class="Span-div"><span id="MobileHealthcare-Link-span" class="Icon-value Black-bg">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="TranontLife-column">
+                        <div id="TranontLife-Link-div" class="Portal-link"><a href="tranontlife.html" id="TranontLife-link" class="Portal-icon TranontLife-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="TranontLife-Link-heading">TranontLife</h5>
+                            <div id="TranontLife-Link-Span-div" class="Span-div"><span id="TranontLife-Link-span" class="Icon-value Black-bg">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="Coaching-column">
+                        <div id="Coaching-Link-div" class="Portal-link"><a href="/education" target="_blank" id="Coaching-link" class="Portal-icon Coaching-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="Coaching-Link-heading">Coaching</h5>
+                            <div id="Coaching-Link-Span-div" class="Span-div"><span id="Coaching-Link-span" class="Icon-value Black-bg">0</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 Link-column" id="RetailServices-column">
+                        <div id="RetailServices-Link-div" class="Portal-link"><a href="retailservices.html" id="RetailServices-link" class="Portal-icon RetailServices-icon"></a>
+                            <h5 class="text-center AdminLink-text" id="RetailServices-Link-heading">Retail Services</h5>
+                            <div id="RetailServices-Link-Span-div" class="Span-div"><span id="RetailServices-Link-span" class="Icon-value Black-bg">0</span></div>
                         </div>
                     </div>
                 </div>
@@ -187,7 +204,7 @@
     </div>
 <!-- END BANNER & BUTTONS SECTION -->	
 
-<!-- BEGIN FAMILIES HELPED SECTION -->	    
+<!-- BEGIN ACTIONS & NEWS SECTION -->	    
     <div class="container-fluid No-padding" id="FamiliesHelped-container">
         <div class="row No-margin" id="FamiliesHelped-row">
             <div class="col-md-12 Center Gray-bg" id="FamiliesHelped-column" style="margin:10px auto">
@@ -196,15 +213,12 @@
             </div>
         </div>
     </div>
-<!-- END FAMILIES HELPED SECTION -->
-
-<!-- BEGIN ACTIONS & NEWS SECTION -->
     <div class="container-fluid No-margin" id="News-container">
         <div class="row No-padding" id="News-row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="Documents-column">
                 <div id="Documents-div" class="Full-div">
                     <div id="Documents-Heading-div" class="Full-div">
-                        <h5 id="Documents-heading" class="No-margin" style="font-family:Montserrat, sans-serif;color:#000;"><strong>WELCOME</strong></h5>
+                        <h5 id="Documents-heading" class="Actions-heading"><strong>WELCOME</strong></h5>
                     </div>
                     <div class="row News-row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -229,12 +243,17 @@
                         </div>
                     </div>
                     <div id="Documents-Heading-div" class="Full-div">
-                        <h5 id="Documents-heading" class="No-margin" style="font-family:Montserrat, sans-serif;color:#000;"><strong>BECOME AN AGENT: 7 EASY STEPS</strong></h5>
+                        <h5 id="Documents-heading" class="Actions-heading" style="margin-bottom:10px"><strong>BECOME AN AGENT: 7 EASY STEPS</strong></h5>
                     </div>
                     <div class="row News-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div id="WelcomeTools-div">
+                                <h6 id="Download-heading" class="Download-heading">STEP 1: BECOME LICENSED</h6>
+                            </div>
+                        </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div id="WelcomeTools-div" class="Document-div">
-                                <h6 id="Download-heading" class="Download-heading">1. BECOME LICENSED</h6>
+                                <h6 id="Download-heading" class="Download-heading">US</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Get_Licensed_(Exam_FX).pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Get Licensed (Exam FX).pdf</p>
                                 </a>
@@ -247,6 +266,11 @@
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Puerto_Rico_Licensing.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Puerto Rico Licensing.pdf</p>
                                 </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="WelcomeTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">CANADA</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+1+Become+Licensed/Canada_Pre-licensing.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
                                 </a>
@@ -261,9 +285,16 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div id="CORETools-div">
+                                <h6 id="Download-heading" class="Download-heading"><a href="#"></a>STEP 2: GET APPOINTED</h6>
+                            </div>
+                        </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div id="CORETools-div" class="Document-div">
-                                <h6 id="Download-heading" class="Download-heading"><a href="#"></a>2. GET APPOINTED</h6>
+                                <h6 id="Download-heading" class="Download-heading"><a href="#"></a>US</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Agent_Agreement_(English).pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Agent Agreement (English).pdf</p>
                                 </a>
@@ -312,6 +343,11 @@
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/ANICO_Appt_Sample.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>ANICO Appt. Sample.pdf</p>
                                 </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="CORETools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading"><a href="#"></a>CANADA</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+2+Get+Appointed/Canada_Pre-licensing.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
                                 </a>
@@ -325,9 +361,14 @@
                         </div>
                     </div>
                     <div class="row News-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div id="RetailTools-div">
+                                <h6 id="Download-heading" class="Download-heading">STEP 3: CNA TRAINING</h6>
+                            </div>
+                        </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div id="RetailTools-div" class="Document-div">
-                                <h6 id="Download-heading" class="Download-heading">3. CNA TRAINING</h6>
+                                <h6 id="Download-heading" class="Download-heading">US</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/CNA.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>CNA.pdf</p>
                                 </a>
@@ -343,6 +384,11 @@
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Tranont_CORE_Overview.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Tranont CORE Overview.pdf</p>
                                 </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="RetailTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">CANADA</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+3+CNA+Training/Canada_CNA.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada CNA.pdf</p>
                                 </a>
@@ -363,17 +409,28 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div id="BusinessTools-div" class="Document-div">
-                                <h6 id="Download-heading" class="Download-heading">4. ILLUSTRATION TRAINING</h6>
-                                <p class="Download-paragraph2">(See Video Section)</p>
+                                <h6 id="Download-heading" class="Download-heading">STEP 4. ILLUSTRATION TRAINING</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div id="BusinessTools-div">
+                                <p class="Download-paragraph2" style="margin:7px 30px">(See Video Section)</p>
                             </div>
                         </div>
                     </div>
                     <div class="row News-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div id="EventTools-div">
+                                <h6 id="Download-heading" class="Download-heading">STEP 5: SUBMITTING BUSINESS</h6>
+                            </div>
+                        </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div id="EventTools-div" class="Document-div">
-                                <h6 id="Download-heading" class="Download-heading">5. SUBMITTING BUSINESS</h6>
+                                <h6 id="Download-heading" class="Download-heading">US</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/FGL_Gold_with_Spouse%3AChild.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>FGL Gold w/ Spouse/Child.pdf</p>
                                 </a>
@@ -434,6 +491,11 @@
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Producer_Acknowledgement.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Producer Acknowledgement.pdf</p>
                                 </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="EventTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">CANADA</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+5+Submitting+Business/Canada_Annuity.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Annuity.pdf</p>
                                 </a>
@@ -454,15 +516,27 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div class="row News-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div id="EventTools-div">
+                                <h6 id="Download-heading" class="Download-heading">STEP 6: OUTSTANDING DELIVERY REQUIREMENTS</h6>
+                            </div>
+                        </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div id="EventTools-div" class="Document-div">
-                                <h6 id="Download-heading" class="Download-heading">6. OUTSTANDING DELIVERY REQ</h6>
+                                <h6 id="Download-heading" class="Download-heading">US</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+6+Outstanding+Delivery+Requirements/Post_App_Checklist_(English).pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Post-App Checklist (English).pdf</p>
                                 </a>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+6+Outstanding+Delivery+Requirements/Post_App_Checklist_(Spanish).pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Post-App Checklist (Spanish).pdf</p>
                                 </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="EventTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">CANADA</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+6+Outstanding+Delivery+Requirements/Canada_Pre-licensing.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
                                 </a>
@@ -470,9 +544,9 @@
                         </div>
                     </div>
                     <div class="row News-row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div id="EventTools-div" class="Document-div">
-                                <h6 id="Download-heading" class="Download-heading">7. GET PAID/ANNUAL REVIEWS</h6>
+                                <h6 id="Download-heading" class="Download-heading">STEP 7: GET PAID/ANNUAL REVIEWS</h6>
                                 <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Compensation_Plan.pdf" target="_blank">
                                     <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Compensation Plan.pdf</p>
                                 </a>
@@ -502,9 +576,46 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="EventTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">US</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Compensation_Plan.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Compensation Plan.pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/IUL_Review.docx" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-word-o Download-icon"></i>IUL Review.docx</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annuity_Review_(English).docx" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-word-o Download-icon"></i>Annuity Review (English).docx</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annuity_Review_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annuity Review (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annual Review (English).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_(Spanish).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annual Review (Spanish).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_Script_(English).pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Annual Review Script (Eng).pdf</p>
+                                </a>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Annual_Review_Script_(Spanish).docx" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-word-o Download-icon"></i>Annual Review Script (Spa).docx</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="EventTools-div" class="Document-div">
+                                <h6 id="Download-heading" class="Download-heading">CANADA</h6>
+                                <a href="https://s3-us-west-2.amazonaws.com/tranontmedia/Portal/Become+an+Agent/Step+7+Get+Paid+Annual+Reviews/Canada_Pre-licensing.pdf" target="_blank">
+                                    <p class="Download-paragraph"><i class="fa fa-file-pdf-o Download-icon"></i>Canada Pre-licensing.pdf</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div id="Documents-Heading-div" class="Full-div">
-                        <h5 id="Documents-heading" class="No-margin" style="font-family:Montserrat, sans-serif;color:#000;"><strong>PRODUCT TRAINING TOOLS</strong></h5>
+                        <h5 id="Documents-heading" class="Actions-heading"><strong>PRODUCT TRAINING TOOLS</strong></h5>
                     </div>
                     <div class="row News-row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -589,7 +700,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="TrainingVideos-column">
                 <div id="TrainingVideos-div" class="Full-div">
                     <div id="TrainingVideos-Heading-div" class="Full-div">
-                        <h5 id="NewsFeed-heading" style="font-family:Montserrat, sans-serif;color:#000;"><strong>TRAINING VIDEOS</strong><br></h5>
+                        <h5 id="NewsFeed-heading" class="Actions-heading"><strong>TRAINING VIDEOS</strong><br></h5>
                     </div>
                     <div class="col-md-12">
                         <div id="BecomeAgentVideo-div" class="Full-div TrainingVideo-div"><a href="https://www.youtube.com/watch?v=Q-iWWWDTO2w&amp;feature=youtu.be" target="_blank" class="TrainingVideo-link"><img src="https://s3-us-west-2.amazonaws.com/tranontmedia/Icons/Portal/Video-icon.svg" class="TrainingVideo-image"><h6 class="TrainingVideo-paragraph">BECOMING AN AGENT VIDEO</h6></a></div>
@@ -864,11 +975,12 @@
             </div>
         </div>
     </div>
-    <!-- END ACTIONS & NEWS SECTION -->
+<!-- END ACTIONS & NEWS SECTION -->
 
 <!-- BEGIN JAVASCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/tranontmedia/tranontcss/assets/js/portal-script.min.js"></script>
 <!-- END JAVASCRIPTS -->
 
 </body>
